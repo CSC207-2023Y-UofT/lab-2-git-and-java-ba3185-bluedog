@@ -40,6 +40,10 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String darioTao() {
+        return printLabMessage("Hello there ;)", "Dario Tao", true,
+                "You are beautiful!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -60,6 +64,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
+        System.out.println(darioTao());
 
     }
 
